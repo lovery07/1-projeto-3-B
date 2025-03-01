@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Luisa Sonza</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="img/ma1.jpg" alt="Luisa Souza" class="nav-img " loading="lazy" style="max-width: 150%;width: 350px; height: 350%;">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Musicas">Musicas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>  
+            <id="acessibilidade" class="menu-acessibilidade"> 
+            <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+            <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
+                <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>         
+            </div>
+            </div>
+        </nav>
+       
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Luisa Lonza</h1>
+                    <img src="img/ma 6.png" class="mb-3" width="563"
+                        height="278" loading="lazy">
+                    <a href="#Luisa"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                </div>
+                <img src="img/ma 9.jpg" class="img-fluid img inicio" style="max-width: 100%; width: 300px; height: auto;">
+        
+            </div>
+        </section>
+
+        <section id="Luisa" class="my-5 pt-6 seção-luisa" tabindex="0" aria-label="Seção que fala a historia da Luisa">
+            <div class="container d-flex align-items-center ">
+            <div class="col-4 d-flex justify-content-center">
+                <img src="img/ma2.jpeg" class="rounded-pill"width="273" height="331" loading="lazy">
+                </div>
+                  <div class="col-5">
+                    <h2>Quem é a Luisa Sonza?</h2>
+                    <p class="p-2">Luísa Sonza é uma cantora, compositora e musicista brasileira, nascida em 1998. Iniciou sua carreira em 2005 como vocalista da banda Sol Maior e ganhou notoriedade no YouTube ao postar covers, sendo chamada de "Rainha dos Covers". Em 2017, assinou com a Universal Music Brasil e lançou seu primeiro EP. Seu álbum de estreia, Pandora (2019), trouxe sucessos como "Garupa" e "Bomba Relógio". Em 2021, lançou Doce 22, com hits como "Modo Turbo" e "Penhasco", abordando temas pessoais. Além da música, Sonza atuou em novelas e apresentou programas. Recebeu prêmios como o Multishow e MTV MIAW Brasil, além de indicações ao Grammy Latino. Seu trabalho, que explora a sexualidade feminina, e sua vida pessoal a tornaram alvo de polêmicas e da cultura do cancelamento.
+                    fonte:https://pt.wikipedia.org/wiki/Boyce_Avenue</p>
+                
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="Musicas"  tabindex="0" aria-label="Seção de imagens de algumas músicas" >
+            <h2 class="text-center pt-5">Musicas</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/ma..4.jpg"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/ma..5.jpeg" class="img-fluid rounded-5"
+                            loading="lazy">
+                    </div>
+                </div>
+                        <div class="row mt-4  justify-content-md-center">
+                        <div class="col-md-4">
+                        <img src="img/ma..3.jpg" class="img-fluid rounded-5" loading="lazy">
+                        </div>
+                        <div class="col-md-4">
+                        <img src="img/ma..1.jpg"
+                            class="img-fluid rounded-5" loading="lazy">
+                        </div>
+                        </div>
+                        </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-5 col-lg-10 rounded-5 formulario"> 
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill tamanho-botao">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Marcella 3°B. Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
